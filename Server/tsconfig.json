@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "strict": true,
+    "module": "commonjs",
+    "outDir": "dist",
+    "sourceMap": false
+  },
+  "include": [
+    "src/**/*.ts",
+    "client/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
