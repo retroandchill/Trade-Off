@@ -64,3 +64,5 @@ fabric.properties
 
 # Webstorm
 node_modules/
+*.js
+.idea/workspace.xlm
