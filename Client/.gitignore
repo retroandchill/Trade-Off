@@ -66,3 +66,5 @@ fabric.properties
 node_modules/
 *.js
 .idea/workspace.xlm
+
+package-lock.json
