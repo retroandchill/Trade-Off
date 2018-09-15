@@ -64,4 +64,8 @@ fabric.properties
 
 # Webstorm
 node_modules/
+
+package-lock.json
+
 *.js
+
