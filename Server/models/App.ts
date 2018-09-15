@@ -20,7 +20,7 @@ class App {
         this.app.use(bodyParser({limit: '50mb'}));
 
         //TODO: Remove this database object in favor of a singleton instance? We do not need this here. This is here just so the DB can be tested right now.
-        let test: any = new DatabaseConnector();
+        let test: DatabaseConnector = DatabaseConnector.Instance;
     }
 
     private setRoutes(): void {
