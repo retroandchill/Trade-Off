@@ -12,7 +12,7 @@ export default class DatabaseConnector {
     //The mongoose database connection created by the constructor
     protected connection: mongoose.Connection;
 
-    private constructor() {
+    protected constructor() {
 
         // Create the DatabaseConnector connection to the MongoDB shared server ONLY if one doesn't exist
         // @ts-ignore
