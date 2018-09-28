@@ -16,7 +16,14 @@ router.post('/registrationhandler', (req: Request, res: Response) => {
     let password: string = req.body.password;
     let email: string = req.body.email;
 
-    //TODO: Attempt a registration event here
+    if(userDatabase.registerUser(username, password, email)) {
+
+        // The user was able to register properly!
+        res.sendStatus(201);
+    }
+
+    // Something weird happen on the server!
+    res.sendStatus(503);
 });
 
 
@@ -30,5 +37,16 @@ router.post('/loginhandler', (req: Request, res: Response) => {
     let username = req.body.username;
     let password: string = req.body.password;
 
-    //TODO: Attempt a login event here
+    if(userDatabase.loginUser(username, password)) {
+
+        //TODO: The user has logged in! Create a session for them!
+
+        res.sendStatus(200);
+    }
+
+    else {
+        // The credentials were probably incorrect. Send HTTP Code 401
+        res.sendStatus(401);
+    }
+
 })
