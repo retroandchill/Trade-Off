@@ -38,7 +38,7 @@ export default class DatabaseConnectorUser extends DatabaseConnector {
 
     }
 
-    public registerUser(userName, passWord, email){
+    public registerUser(userName, passWord, email): boolean{
         let salt = bcrypt.genSaltSync(1);
         let hash = bcrypt.hashSync(passWord, salt);
 
@@ -50,9 +50,12 @@ export default class DatabaseConnectorUser extends DatabaseConnector {
             if (err)
             {
                 console.log('FAAAAKK REGISTERING USER WONT SAVE!!!! SEND HELP!');
+                return false;
             }
         });
 
+        // The entry has been saved properly
+        return true;
     }
 
 }
