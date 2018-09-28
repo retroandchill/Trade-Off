@@ -1,9 +1,18 @@
 import DatabaseConnector from "./DatabaseConnector";
-import {default as mongoose, Schema} from "mongoose";
+import {Schema} from "mongoose";
 import bcrypt from 'bcrypt';
+import * as mongoose from "mongoose";
 
 export default class DatabaseConnectorUser extends DatabaseConnector {
 
+    /**
+     * Constructor for the class which simply calls the parent constructor, thus creating the MongoDB connection
+     */
+    constructor() {
+        super();
+    };
+
+    private Schema = mongoose.Schema;
 
     private user = new Schema({
         username: String,
@@ -12,14 +21,9 @@ export default class DatabaseConnectorUser extends DatabaseConnector {
         passSalt: String
     });
 
-
-    protected super() {
-
-    }
-
     public loginUser(userName, password): boolean{
 
-        var passUserDataModel = mongoose.model('passUserDataModel', this.user);
+        let passUserDataModel = mongoose.model('passUserDataModel', this.user);
         passUserDataModel.findOne({'userName': userName}, 'username, passHash', function(err, result) {
             if(err) {
                 console.log('FREAKING SCATTER! THEY CAN\'T CATCH US ALL!');
@@ -27,7 +31,7 @@ export default class DatabaseConnectorUser extends DatabaseConnector {
 
             // @ts-ignore
             return (bcrypt.compareSync(password, result.passHash));
-        })
+        });
 
         // User didn't exist
         return false;
@@ -35,16 +39,18 @@ export default class DatabaseConnectorUser extends DatabaseConnector {
     }
 
     public registerUser(userName, passWord, email){
-        var salt = bcrypt.genSaltSync(1); //this value needs to exist probably hard code it lol -- Yup!
-        var hash = bcrypt.hashSync(passWord, salt);
+        let salt = bcrypt.genSaltSync(1);
+        let hash = bcrypt.hashSync(passWord, salt);
 
-        var user = new user({ username: userName, passHash: hash, email: email, passSalt: salt });
-        user.save(function (err) {
+        //NOTE: MAKE SURE TO USE THE CONNECTION MODEL, NOT THE MONGOOSE.MODEL LISTED IN DOCUMENTS
+        let User = this.connection.model('User', this.user);
+
+        var userQuery = new User({ username: userName, passHash: hash, email: email, passSalt: salt });
+        userQuery.save(function (err) {
             if (err)
             {
                 console.log('FAAAAKK REGISTERING USER WONT SAVE!!!! SEND HELP!');
             }
-            // saved!
         });
 
     }

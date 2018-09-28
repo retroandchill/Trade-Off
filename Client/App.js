@@ -14,8 +14,7 @@ var App = /** @class */ (function () {
     }
     App.prototype.config = function () {
         //Setup Cors and access control information here
-        this.app.use(body_parser_1.default.json({ limit: '500mb' }));
-        this.app.use(body_parser_1.default({ limit: '50mb' }));
+        this.app.use(body_parser_1.default.json());
     };
     App.prototype.setRoutes = function () {
         // Set Express to always serve the static JS and CSS files in the view folder

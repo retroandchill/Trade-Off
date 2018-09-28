@@ -16,8 +16,7 @@ class App {
 
         //Setup Cors and access control information here
 
-        this.app.use(bodyParser.json({limit: '500mb'}));
-        this.app.use(bodyParser({limit: '50mb'}));
+        this.app.use(bodyParser.json());
 
     }
 
