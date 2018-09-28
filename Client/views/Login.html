@@ -14,11 +14,53 @@
             Modal Title
         </div>
         <div class="image content">
-            <div class="image">
-                An image can appear on left or an icon
-            </div>
-            <div class="description">
-                A description can appear on the right
+            <div class="ui middle aligned container center aligned grid">
+                <div class="column">
+                    <h2 class="ui teal image header">
+                        <img src="assets/temp/183-Marill.png" class="image">
+                        <div class="content">
+                            Create your account
+                        </div>
+                    </h2>
+                    <form class="ui large form">
+                        <div class="ui stacked segment">
+                            <div class="field">
+                                <div class="ui left icon input">
+                                    <i class="user icon"></i>
+                                    <input type="text" name="email" placeholder="Username">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="ui left icon input">
+                                    <i class="user icon"></i>
+                                    <input type="text" name="email" placeholder="E-mail address">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="ui left icon input">
+                                    <i class="user icon"></i>
+                                    <input type="text" name="email" placeholder="Confirm E-mail address">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="ui left icon input">
+                                    <i class="lock icon"></i>
+                                    <input type="password" name="password" placeholder="Password">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="ui left icon input">
+                                    <i class="lock icon"></i>
+                                    <input type="password" name="password" placeholder="Confirm Password">
+                                </div>
+                            </div>
+                            <div class="ui fluid large teal submit button" onclick="processSignup()">Sign-Up</div>
+                        </div>
+
+                        <div class="ui error message"></div>
+
+                    </form>
+                </div>
             </div>
         </div>
         <div class="actions">
@@ -48,7 +90,7 @@
                             <input type="password" name="password" placeholder="Password">
                         </div>
                     </div>
-                    <div class="ui fluid large teal submit button">Login</div>
+                    <div class="ui fluid large teal submit button" onclick="processLogin()">Login</div>
                 </div>
 
                 <div class="ui error message"></div>
@@ -56,7 +98,7 @@
             </form>
 
             <div class="ui message">
-                New to us? <button onclick="displayLogin()">Sign Up</button>
+                New to us? <button onclick="displaySignup()">Sign Up</button>
             </div>
         </div>
     </div>

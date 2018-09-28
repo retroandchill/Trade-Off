@@ -3,11 +3,217 @@
   <component name="ChangeListManager">
     <list default="true" id="d8088225-2440-4f39-a1f9-f99630cacee9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Client/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/models/App.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/models/App.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/routes/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/routes/users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic.json" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/behaviors/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/behaviors/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/behaviors/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/behaviors/form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/behaviors/visibility.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/behaviors/visibility.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/collections/breadcrumb.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/collections/breadcrumb.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/collections/form.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/collections/form.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/collections/grid.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/collections/grid.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/collections/menu.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/collections/menu.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/collections/message.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/collections/message.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/collections/table.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/collections/table.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/elements/button.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/elements/button.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/elements/container.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/elements/container.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/elements/divider.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/elements/divider.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/elements/flag.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/elements/flag.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/elements/header.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/elements/header.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/elements/icon.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/elements/icon.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/elements/image.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/elements/image.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/elements/input.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/elements/input.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/elements/label.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/elements/label.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/elements/list.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/elements/list.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/elements/loader.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/elements/loader.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/elements/rail.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/elements/rail.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/elements/reveal.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/elements/reveal.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/elements/segment.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/elements/segment.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/elements/step.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/elements/step.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/globals/reset.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/globals/reset.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/globals/site.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/globals/site.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/globals/site.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/globals/site.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/accordion.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/accordion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/checkbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/checkbox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/checkbox.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/checkbox.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/dimmer.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/dimmer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/dimmer.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/dimmer.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/dropdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/dropdown.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/dropdown.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/embed.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/embed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/embed.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/embed.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/modal.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/modal.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/nag.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/nag.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/nag.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/nag.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/popup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/popup.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/popup.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/progress.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/progress.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/progress.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/progress.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/rating.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/rating.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/rating.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/rating.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/search.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/search.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/shape.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/shape.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/shape.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/shape.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/sidebar.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/sidebar.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/sticky.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/sticky.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/sticky.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/sticky.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/tab.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/tab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/tab.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/tab.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/transition.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/transition.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/transition.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/modules/transition.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/views/ad.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/views/ad.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/views/card.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/views/card.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/views/comment.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/views/comment.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/views/feed.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/views/feed.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/views/item.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/views/item.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/definitions/views/statistic.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/definitions/views/statistic.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/theme.less" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/theme.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/assets/fonts/brand-icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/assets/fonts/brand-icons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/assets/fonts/icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/assets/fonts/icons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/assets/fonts/outline-icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/assets/fonts/outline-icons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/collections/breadcrumb.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/collections/breadcrumb.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/collections/breadcrumb.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/collections/breadcrumb.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/collections/form.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/collections/form.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/collections/form.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/collections/form.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/collections/grid.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/collections/grid.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/collections/grid.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/collections/grid.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/collections/menu.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/collections/menu.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/collections/menu.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/collections/menu.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/collections/message.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/collections/message.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/collections/message.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/collections/message.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/collections/table.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/collections/table.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/button.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/button.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/button.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/button.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/container.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/container.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/container.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/container.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/divider.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/divider.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/divider.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/divider.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/flag.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/flag.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/flag.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/flag.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/header.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/header.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/header.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/header.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/icon.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/icon.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/icon.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/icon.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/image.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/image.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/image.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/image.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/input.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/input.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/input.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/input.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/label.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/label.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/label.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/label.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/list.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/list.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/list.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/list.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/loader.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/loader.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/loader.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/loader.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/rail.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/rail.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/rail.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/rail.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/reveal.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/reveal.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/reveal.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/reveal.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/segment.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/segment.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/segment.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/segment.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/step.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/step.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/step.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/elements/step.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/globals/reset.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/globals/reset.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/globals/reset.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/globals/reset.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/globals/site.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/globals/site.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/globals/site.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/globals/site.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/accordion.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/accordion.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/accordion.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/accordion.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/chatroom.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/chatroom.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/chatroom.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/chatroom.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/checkbox.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/checkbox.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/checkbox.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/checkbox.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/dimmer.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/dimmer.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/dimmer.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/dimmer.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/dropdown.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/dropdown.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/dropdown.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/dropdown.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/embed.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/embed.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/embed.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/embed.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/modal.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/modal.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/modal.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/modal.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/nag.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/nag.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/nag.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/nag.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/popup.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/popup.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/popup.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/popup.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/progress.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/progress.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/progress.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/progress.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/rating.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/rating.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/rating.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/rating.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/search.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/search.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/search.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/search.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/shape.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/shape.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/shape.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/shape.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/sidebar.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/sidebar.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/sidebar.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/sidebar.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/sticky.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/sticky.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/sticky.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/sticky.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/tab.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/tab.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/tab.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/tab.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/transition.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/transition.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/transition.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/modules/transition.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/views/ad.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/views/ad.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/views/ad.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/views/ad.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/views/card.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/views/card.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/views/card.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/views/card.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/views/comment.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/views/comment.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/views/comment.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/views/comment.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/views/feed.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/views/feed.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/views/feed.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/views/feed.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/views/item.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/views/item.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/views/item.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/views/item.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/views/statistic.overrides" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/views/statistic.overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/src/themes/default/views/statistic.variables" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/src/themes/default/views/statistic.variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/admin/components/create.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/admin/components/create.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/admin/components/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/admin/components/init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/admin/components/update.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/admin/components/update.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/admin/distributions/create.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/admin/distributions/create.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/admin/distributions/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/admin/distributions/init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/admin/distributions/update.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/admin/distributions/update.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/admin/publish.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/admin/publish.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/admin/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/admin/register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/admin/release.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/admin/release.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/build.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/build.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/build/assets.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/build/assets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/build/css.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/build/css.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/build/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/build/javascript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/check-install.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/check-install.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/clean.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/clean.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/collections/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/collections/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/collections/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/collections/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/collections/build.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/collections/build.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/collections/internal.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/collections/internal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/collections/rtl.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/collections/rtl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/config/admin/github.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/config/admin/github.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/config/admin/oauth.example.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/config/admin/oauth.example.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/config/admin/release.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/config/admin/release.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/config/admin/templates/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/config/admin/templates/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/config/admin/templates/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/config/admin/templates/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/config/admin/templates/component-package.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/config/admin/templates/component-package.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/config/admin/templates/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/config/admin/templates/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/config/admin/templates/css-package.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/config/admin/templates/css-package.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/config/admin/templates/less-package.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/config/admin/templates/less-package.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/config/admin/templates/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/config/admin/templates/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/config/defaults.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/config/defaults.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/config/docs.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/config/docs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/config/npm/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/config/npm/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/config/project/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/config/project/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/config/project/install.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/config/project/install.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/config/project/release.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/config/project/release.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/config/tasks.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/config/tasks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/config/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/config/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/docs/build.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/docs/build.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/docs/metadata.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/docs/metadata.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/docs/serve.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/docs/serve.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/install.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/install.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/rtl/build.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/rtl/build.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/rtl/watch.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/rtl/watch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/version.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/version.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/semantic/tasks/watch.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/semantic/tasks/watch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/views/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Client/views/Login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/views/js/LoginController.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/views/js/LoginController.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -62,9 +268,73 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="572530973">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="js" value="1" />
+          <entry key="json" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="102" />
+          <entry key="js" value="182" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="102" />
+          <entry key="JavaScript" value="182" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Client/views/Login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="401">
+              <caret line="56" column="99" selection-start-line="56" selection-start-column="99" selection-end-line="56" selection-end-column="99" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Client/views/js/LoginController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Client/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -87,6 +357,8 @@
         <option value="$PROJECT_DIR$/Client/App.ts" />
         <option value="$PROJECT_DIR$/Client/Server.ts" />
         <option value="$PROJECT_DIR$/Client/App.js" />
+        <option value="$PROJECT_DIR$/Client/views/Login.html" />
+        <option value="$PROJECT_DIR$/Client/views/js/LoginController.js" />
       </list>
     </option>
   </component>
@@ -102,813 +374,6 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="$PROJECT_DIR$/Client/node_modules/@types/babel-types/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/@types/babylon/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/@types/commander/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/@types/semver/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/abbrev/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/accepts/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/accord/node_modules/convert-source-map/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/accord/node_modules/glob/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/accord/node_modules/lodash.defaults/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/accord/node_modules/minimatch/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/accord/node_modules/semver/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/accord/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/acorn-globals/node_modules/acorn/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/acorn-globals/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/acorn/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/ajv/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/align-text/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/amdefine/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/ansi-colors/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/ansi-cyan/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/ansi-escapes/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/ansi-gray/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/ansi-red/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/ansi-regex/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/ansi-styles/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/ansi-wrap/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/anymatch/node_modules/arr-diff/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/anymatch/node_modules/array-unique/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/anymatch/node_modules/braces/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/anymatch/node_modules/expand-brackets/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/anymatch/node_modules/extglob/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/anymatch/node_modules/is-extglob/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/anymatch/node_modules/is-glob/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/anymatch/node_modules/micromatch/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/anymatch/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/archy/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/argparse/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/arr-diff/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/arr-flatten/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/arr-union/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/array-differ/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/array-each/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/array-find-index/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/array-flatten/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/array-slice/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/array-union/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/array-uniq/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/array-unique/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/asap/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/asn1/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/assert-plus/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/assign-symbols/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/async-each/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/async/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/asynckit/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/atob/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/autoprefixer/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/aws-sign2/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/aws4/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/babel-runtime/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/babel-types/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/babylon/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/balanced-match/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/base/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/base/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/base/node_modules/is-data-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/base/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/base/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/base/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/basic-auth/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/bcrypt-pbkdf/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/beeper/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/better-console/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/binary-extensions/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/binaryextensions/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/body-parser/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/boom/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/brace-expansion/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/braces/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/braces/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/browserslist/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/builtin-modules/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/bytes/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/cache-base/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/camelcase-keys/node_modules/camelcase/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/camelcase-keys/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/camelcase/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/caniuse-lite/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/caseless/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/center-align/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/chalk/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/character-parser/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/chardet/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/chokidar/node_modules/glob-parent/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/chokidar/node_modules/is-extglob/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/chokidar/node_modules/is-glob/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/chokidar/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/class-utils/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/class-utils/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/clean-css/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/cli-cursor/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/cli-table/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/cli-width/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/cliui/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/clone-buffer/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/clone-stats/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/clone/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/cloneable-readable/node_modules/isarray/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/cloneable-readable/node_modules/readable-stream/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/cloneable-readable/node_modules/string_decoder/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/cloneable-readable/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/co/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/collection-visit/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/color-convert/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/color-name/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/color-support/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/colors/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/combined-stream/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/commander/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/component-emitter/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/concat-map/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/concat-with-sourcemaps/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/concat-with-sourcemaps/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/config-chain/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/constantinople/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/content-disposition/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/content-type/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/convert-source-map/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/cookie-parser/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/cookie-signature/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/cookie/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/copy-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/core-js/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/core-util-is/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/cryptiles/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/css/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/css/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/currently-unhandled/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/dashdash/node_modules/assert-plus/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/dashdash/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/dateformat/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/decamelize/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/decode-uri-component/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/deep-assign/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/deepmerge/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/defaults/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/define-property/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/define-property/node_modules/is-data-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/define-property/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/define-property/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/del/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/delayed-stream/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/depd/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/deprecated/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/destroy/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/detect-file/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/detect-indent/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/diff/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/doctypes/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/duplexer/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/duplexer2/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/duplexify/node_modules/end-of-stream/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/duplexify/node_modules/isarray/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/duplexify/node_modules/once/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/duplexify/node_modules/readable-stream/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/duplexify/node_modules/string_decoder/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/duplexify/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/ecc-jsbn/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/editorconfig/node_modules/commander/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/editorconfig/node_modules/lru-cache/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/editorconfig/node_modules/semver/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/editorconfig/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/ee-first/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/electron-to-chromium/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/encodeurl/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/end-of-stream/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/errno/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/error-ex/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/escape-html/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/escape-string-regexp/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/esutils/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/etag/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/event-stream/node_modules/map-stream/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/event-stream/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/expand-brackets/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/expand-brackets/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/expand-brackets/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/expand-range/node_modules/fill-range/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/expand-range/node_modules/is-number/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/expand-range/node_modules/isarray/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/expand-range/node_modules/isobject/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/expand-range/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/expand-tilde/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/express/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/extend-shallow/node_modules/is-extendable/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/extend/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/external-editor/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/extglob/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/extglob/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/extglob/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/extglob/node_modules/is-data-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/extglob/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/extglob/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/extglob/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/extsprintf/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/fancy-log/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/figures/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/filename-regex/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/fill-range/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/fill-range/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/finalhandler/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/find-index/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/find-up/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/findup-sync/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/findup/node_modules/colors/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/findup/node_modules/commander/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/findup/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/fined/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/first-chunk-stream/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/flagged-respawn/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/for-in/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/for-own/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/forever-agent/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/fork-stream/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/form-data/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/forwarded/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/fragment-cache/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/fresh/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/from/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/fs.realpath/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/function-bind/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gaze/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/get-imports/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/get-stdin/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/get-value/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/getpass/node_modules/assert-plus/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/getpass/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/glob-base/node_modules/glob-parent/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/glob-base/node_modules/is-extglob/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/glob-base/node_modules/is-glob/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/glob-base/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/glob-parent/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/glob-stream/node_modules/readable-stream/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/glob-stream/node_modules/through2/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/glob-stream/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/glob-watcher/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/glob/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/glob2base/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/global-modules/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/global-prefix/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/globby/node_modules/glob/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/globby/node_modules/minimatch/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/globby/node_modules/pify/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/globby/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/globule/node_modules/glob/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/globule/node_modules/graceful-fs/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/globule/node_modules/inherits/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/globule/node_modules/lodash/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/globule/node_modules/minimatch/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/globule/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/glogg/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/graceful-fs/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/graceful-readlink/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/growly/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-autoprefixer/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-chmod/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-clean-css/node_modules/clean-css/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-clean-css/node_modules/plugin-error/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-clean-css/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-clean-css/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-clone/node_modules/ansi-regex/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-clone/node_modules/ansi-styles/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-clone/node_modules/chalk/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-clone/node_modules/dateformat/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-clone/node_modules/gulp-util/node_modules/through2/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-clone/node_modules/gulp-util/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-clone/node_modules/has-ansi/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-clone/node_modules/lodash._reinterpolate/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-clone/node_modules/lodash.escape/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-clone/node_modules/lodash.keys/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-clone/node_modules/lodash.template/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-clone/node_modules/lodash.templatesettings/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-clone/node_modules/minimist/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-clone/node_modules/readable-stream/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-clone/node_modules/strip-ansi/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-clone/node_modules/supports-color/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-clone/node_modules/through2/node_modules/xtend/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-clone/node_modules/through2/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-clone/node_modules/vinyl/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-clone/node_modules/xtend/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-clone/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-concat-css/node_modules/lodash.defaults/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-concat-css/node_modules/through2/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-concat-css/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-concat/node_modules/clone-stats/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-concat/node_modules/clone/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-concat/node_modules/replace-ext/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-concat/node_modules/vinyl/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-concat/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-copy/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-dedupe/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-flatten/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-header/node_modules/lodash.template/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-header/node_modules/lodash.templatesettings/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-header/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-help/node_modules/object-assign/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-help/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-if/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-json-editor/node_modules/plugin-error/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-json-editor/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-less/node_modules/replace-ext/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-less/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-match/node_modules/minimatch/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-match/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-notify/node_modules/lodash.template/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-notify/node_modules/lodash.templatesettings/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-notify/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-plumber/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-print/node_modules/map-stream/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-print/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-rename/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-replace/node_modules/isarray/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-replace/node_modules/readable-stream/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-replace/node_modules/string_decoder/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-replace/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-rtlcss/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-uglify/node_modules/commander/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-uglify/node_modules/safe-buffer/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-uglify/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-uglify/node_modules/uglify-js/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-uglify/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-util/node_modules/object-assign/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-util/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-watch/node_modules/isarray/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-watch/node_modules/readable-stream/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-watch/node_modules/string_decoder/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-watch/node_modules/vinyl/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp-watch/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulp/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/gulplog/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/har-schema/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/har-validator/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/has-ansi/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/has-flag/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/has-gulplog/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/has-value/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/has-values/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/has-values/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/has/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/hawk/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/hoek/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/homedir-polyfill/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/hosted-git-info/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/http-errors/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/http-signature/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/iconv-lite/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/image-size/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/import-regex/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/indent-string/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/indx/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/inflight/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/inherits/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/ini/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/inquirer/node_modules/ansi-regex/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/inquirer/node_modules/ansi-styles/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/inquirer/node_modules/chalk/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/inquirer/node_modules/strip-ansi/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/inquirer/node_modules/supports-color/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/inquirer/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/interpret/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/ip-regex/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/ipaddr.js/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/is-absolute/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/is-arrayish/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/is-binary-path/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/is-buffer/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/is-builtin-module/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/is-data-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/is-descriptor/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/is-dotfile/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/is-equal-shallow/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/is-expression/node_modules/acorn/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/is-expression/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/is-extendable/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/is-extglob/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/is-finite/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/is-fullwidth-code-point/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/is-glob/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/is-number/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/is-obj/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/is-path-cwd/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/is-path-in-cwd/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/is-path-inside/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/is-plain-object/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/is-posix-bracket/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/is-primitive/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/is-promise/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/is-regex/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/is-relative/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/is-typedarray/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/is-unc-path/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/is-utf8/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/is-windows/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/is/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/isarray/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/isexe/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/isobject/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/isstream/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/istextorbinary/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/jquery/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/js-beautify/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/js-stringify/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/jsbn/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/json-schema/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/json-stable-stringify/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/json-stringify-safe/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/jsonify/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/jsprim/node_modules/assert-plus/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/jsprim/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/jstransformer/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lazy-cache/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/less/node_modules/graceful-fs/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/less/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/less/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/liftoff/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/load-json-file/node_modules/graceful-fs/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/load-json-file/node_modules/pify/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/load-json-file/node_modules/strip-bom/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/load-json-file/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lodash._baseassign/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lodash._basecopy/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lodash._basetostring/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lodash._basevalues/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lodash._bindcallback/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lodash._createassigner/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lodash._escapehtmlchar/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lodash._escapestringchar/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lodash._getnative/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lodash._htmlescapes/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lodash._isiterateecall/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lodash._isnative/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lodash._objecttypes/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lodash._reescape/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lodash._reevaluate/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lodash._reinterpolate/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lodash._reunescapedhtml/node_modules/lodash.keys/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lodash._reunescapedhtml/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lodash._root/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lodash._shimkeys/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lodash.assign/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lodash.clone/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lodash.defaults/node_modules/lodash.keys/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lodash.defaults/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lodash.escape/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lodash.flatten/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lodash.isarguments/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lodash.isarray/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lodash.isobject/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lodash.keys/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lodash.merge/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lodash.partialright/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lodash.pick/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lodash.restparam/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lodash.template/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lodash.templatesettings/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lodash.uniq/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lodash.values/node_modules/lodash.keys/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lodash.values/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lodash/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/longest/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/loud-rejection/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/lru-cache/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/make-error-cause/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/make-error/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/make-iterator/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/make-iterator/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/map-cache/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/map-obj/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/map-stream/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/map-visit/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/math-random/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/media-typer/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/meow/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/merge-descriptors/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/merge-stream/node_modules/isarray/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/merge-stream/node_modules/readable-stream/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/merge-stream/node_modules/string_decoder/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/merge-stream/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/methods/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/micromatch/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/micromatch/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/mime-db/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/mime-types/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/mime/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/mimic-fn/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/minimatch/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/minimist/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/mixin-deep/node_modules/is-extendable/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/mixin-deep/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/mkdirp/node_modules/minimist/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/mkdirp/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/morgan/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/multipipe/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/mute-stream/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/nanomatch/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/nanomatch/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/natives/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/negotiator/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/node-notifier/node_modules/semver/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/node-notifier/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/node.extend/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/nopt/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/normalize-package-data/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/normalize-path/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/normalize-range/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/num2fraction/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/number-is-nan/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/oauth-sign/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/object-assign/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/object-copy/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/object-copy/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/object-keys/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/object-visit/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/object.defaults/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/object.map/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/object.omit/node_modules/for-own/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/object.omit/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/object.pick/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/on-finished/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/on-headers/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/once/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/onetime/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/orchestrator/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/ordered-read-streams/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/os-homedir/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/os-tmpdir/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/osenv/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/p-map/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/parse-filepath/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/parse-glob/node_modules/is-extglob/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/parse-glob/node_modules/is-glob/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/parse-glob/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/parse-import/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/parse-json/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/parse-passwd/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/parseurl/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/pascalcase/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/path-dirname/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/path-exists/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/path-is-absolute/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/path-is-inside/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/path-parse/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/path-root-regex/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/path-root/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/path-to-regexp/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/path-type/node_modules/graceful-fs/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/path-type/node_modules/pify/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/path-type/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/pause-stream/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/performance-now/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/pify/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/pinkie-promise/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/pinkie/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/plugin-error/node_modules/arr-diff/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/plugin-error/node_modules/arr-union/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/plugin-error/node_modules/array-slice/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/plugin-error/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/plugin-error/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/plugin-error/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/posix-character-classes/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/postcss-value-parser/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/postcss/node_modules/ansi-styles/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/postcss/node_modules/chalk/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/postcss/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/postcss/node_modules/supports-color/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/postcss/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/preserve/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/pretty-hrtime/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/process-nextick-args/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/promise/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/prompt-sui/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/proto-list/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/proxy-addr/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/prr/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/pseudomap/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/pug-attrs/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/pug-code-gen/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/pug-error/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/pug-filters/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/pug-lexer/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/pug-linker/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/pug-load/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/pug-parser/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/pug-runtime/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/pug-strip-comments/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/pug-walk/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/pug/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/punycode/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/qs/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/randomatic/node_modules/is-number/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/randomatic/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/randomatic/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/range-parser/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/raw-body/node_modules/depd/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/raw-body/node_modules/http-errors/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/raw-body/node_modules/setprototypeof/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/raw-body/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/read-pkg-up/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/read-pkg/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/readable-stream/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/readdirp/node_modules/graceful-fs/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/readdirp/node_modules/isarray/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/readdirp/node_modules/readable-stream/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/readdirp/node_modules/string_decoder/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/readdirp/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/rechoir/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/redent/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/regenerator-runtime/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/regex-cache/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/regex-not/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/remove-trailing-separator/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/repeat-element/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/repeat-string/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/repeating/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/replace-ext/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/replacestream/node_modules/isarray/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/replacestream/node_modules/readable-stream/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/replacestream/node_modules/string_decoder/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/replacestream/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/request/node_modules/qs/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/request/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/require-dot-file/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/resolve-dir/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/resolve-url/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/resolve/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/resolve/test/module_dir/zmodules/bbb/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/resolve/test/resolver/baz/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/resolve/test/resolver/browser_field/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/resolve/test/resolver/dot_main/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/resolve/test/resolver/dot_slash_main/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/resolve/test/resolver/incorrect_main/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/restore-cursor/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/ret/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/rework-import/node_modules/glob/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/rework-import/node_modules/globby/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/rework-import/node_modules/object-assign/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/rework-import/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/rework-plugin-function/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/rework-plugin-url/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/rework-visit/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/rework/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/right-align/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/rimraf/node_modules/glob/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/rimraf/node_modules/minimatch/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/rimraf/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/rtlcss/node_modules/ansi-styles/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/rtlcss/node_modules/chalk/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/rtlcss/node_modules/supports-color/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/rtlcss/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/run-async/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/run-sequence/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/rx-lite-aggregates/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/rx-lite/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/safe-buffer/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/safe-regex/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/safer-buffer/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/semantic-ui/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/semantic-ui/tasks/config/admin/templates/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/semver/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/send/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/sequencify/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/serve-static/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/set-value/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/set-value/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/setprototypeof/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/shellwords/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/sigmund/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/signal-exit/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/slash/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/snapdragon-node/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/snapdragon-node/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/snapdragon-node/node_modules/is-data-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/snapdragon-node/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/snapdragon-node/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/snapdragon-node/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/snapdragon-util/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/snapdragon/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/snapdragon/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/snapdragon/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/snapdragon/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/sntp/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/source-map-resolve/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/source-map-url/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/sparkles/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/spdx-correct/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/spdx-exceptions/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/spdx-expression-parse/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/spdx-license-ids/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/split-string/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/split/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/sprintf-js/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/sshpk/node_modules/assert-plus/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/sshpk/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/stat-mode/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/static-extend/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/static-extend/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/statuses/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/stream-combiner/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/stream-consume/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/stream-shift/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/string-width/node_modules/ansi-regex/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/string-width/node_modules/strip-ansi/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/string-width/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/string_decoder/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/stringstream/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/strip-ansi/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/strip-bom-stream/node_modules/first-chunk-stream/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/strip-bom-stream/node_modules/isarray/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/strip-bom-stream/node_modules/readable-stream/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/strip-bom-stream/node_modules/string_decoder/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/strip-bom-stream/node_modules/strip-bom/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/strip-bom-stream/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/strip-bom/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/strip-indent/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/strip-json-comments/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/supports-color/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/ternary-stream/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/textextensions/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/through/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/through2/node_modules/isarray/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/through2/node_modules/readable-stream/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/through2/node_modules/string_decoder/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/through2/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/tildify/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/time-stamp/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/tmp/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/to-fast-properties/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/to-object-path/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/to-regex-range/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/to-regex/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/token-stream/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/tough-cookie/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/trim-newlines/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/tunnel-agent/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/tweetnacl/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/type-is/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/uglify-js/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/uglify-js/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/uglify-to-browserify/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/unc-path-regex/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/union-value/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/union-value/node_modules/set-value/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/union-value/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/unique-stream/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/unpipe/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/unset-value/node_modules/has-value/node_modules/isobject/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/unset-value/node_modules/has-value/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/unset-value/node_modules/has-values/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/unset-value/node_modules/isarray/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/unset-value/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/urix/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/url-regex/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/use/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/user-home/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/util-deprecate/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/utils-merge/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/uuid/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/v8flags/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/validate-npm-package-license/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/vary/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/verror/node_modules/assert-plus/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/verror/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/vinyl-file/node_modules/graceful-fs/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/vinyl-file/node_modules/pify/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/vinyl-file/node_modules/strip-bom/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/vinyl-file/node_modules/vinyl/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/vinyl-file/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/vinyl-fs/node_modules/clone/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/vinyl-fs/node_modules/readable-stream/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/vinyl-fs/node_modules/through2/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/vinyl-fs/node_modules/vinyl/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/vinyl-fs/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/vinyl-sourcemaps-apply/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/vinyl-sourcemaps-apply/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/vinyl/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/void-elements/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/when/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/which/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/window-size/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/with/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/wordwrap/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/wrappy/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/wrench-sui/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/xtend/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/yallist/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/yamljs/node_modules/glob/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/yamljs/node_modules/minimatch/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/yamljs/package.json" />
-      <path value="$PROJECT_DIR$/Client/node_modules/yargs/package.json" />
       <path value="$PROJECT_DIR$/Client/package.json" />
       <path value="$PROJECT_DIR$/Client/semantic/tasks/config/admin/templates/package.json" />
       <path value="$PROJECT_DIR$/Server/package.json" />
@@ -946,6 +411,19 @@
             <path>
               <item name="Trade-Off" type="b2602c69:ProjectViewProjectNode" />
               <item name="Trade-Off" type="462c0819:PsiDirectoryNode" />
+              <item name="Client" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Trade-Off" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Trade-Off" type="462c0819:PsiDirectoryNode" />
+              <item name="Client" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Trade-Off" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Trade-Off" type="462c0819:PsiDirectoryNode" />
               <item name="Server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -953,13 +431,6 @@
               <item name="Trade-Off" type="462c0819:PsiDirectoryNode" />
               <item name="Server" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Trade-Off" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Trade-Off" type="462c0819:PsiDirectoryNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="App.ts" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -970,7 +441,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Server/Server.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Client" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -995,11 +466,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.Client">
+  <component name="RunManager" selected="Node.js.Server">
     <configuration name="Client" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="Server.js" working-dir="$PROJECT_DIR$/Client">
       <method v="2" />
     </configuration>
-    <configuration name="Server" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="Server.js" working-dir="$PROJECT_DIR$/Server">
+    <configuration name="Server" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="Server.js" working-dir="$PROJECT_DIR$/Client">
       <method v="2" />
     </configuration>
     <list>
@@ -1021,22 +492,24 @@
       <workItem from="1536370009254" duration="6000" />
       <workItem from="1537474844277" duration="1741000" />
       <workItem from="1537995658185" duration="637000" />
+      <workItem from="1538097799576" duration="74000" />
+      <workItem from="1538097886940" duration="2134000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2390000" />
+    <option name="totallyTimeSpent" value="4598000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32939914" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1045,6 +518,7 @@
       <window_info anchor="bottom" id="TypeScript" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32998884" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1077,12 +551,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Server/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Server/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/routes/users.js" />
+    <entry file="file://$PROJECT_DIR$/Server/routes/index.js" />
     <entry file="file://$PROJECT_DIR$/Client/semantic/tasks/admin/components/create.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1090,20 +560,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Server/routes/UserManagementRouter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/routes/UserManagementRouter.js" />
     <entry file="file://$PROJECT_DIR$/Server/models/DatabaseConnectorUser.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1114,16 +575,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Client/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Server/models/StockApi.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/models/StockApi.js" />
     <entry file="file://$PROJECT_DIR$/Client/Server.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1138,9 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1148,9 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1161,10 +607,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Server/models/App.js">
+    <entry file="file://$PROJECT_DIR$/Server/models/App.js" />
+    <entry file="file://$PROJECT_DIR$/Client/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        <state relative-caret-position="255">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/views/Login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="56" column="99" selection-start-line="56" selection-start-column="99" selection-end-line="56" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/views/js/LoginController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
         </state>
       </provider>
     </entry>
