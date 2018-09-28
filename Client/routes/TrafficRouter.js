@@ -12,6 +12,9 @@ var express_1 = require("express");
 var path = __importStar(require("path"));
 var router = express_1.Router();
 router.get('/', function (req, res) {
+    res.sendFile(path.resolve("../Client/views/MainPage.html"));
+});
+router.get('/login', function (req, res) {
     res.sendFile(path.resolve("../Client/views/Login.html"));
 });
 exports.TrafficRouter = router;
