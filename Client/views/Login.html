@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="semantic/semantic.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="semantic/semantic.min.js"></script>
+    <script src="js/LoginController.js"></script>
+    <title>Login</title>
+</head>
+<body>
+    <div class="ui fullscreen modal" id="register">
+        <i class="close icon"></i>
+        <div class="header">
+            Modal Title
+        </div>
+        <div class="image content">
+            <div class="image">
+                An image can appear on left or an icon
+            </div>
+            <div class="description">
+                A description can appear on the right
+            </div>
+        </div>
+        <div class="actions">
+            <div class="ui button">Cancel</div>
+            <div class="ui button">OK</div>
+        </div>
+    </div>
+    <div class="ui middle aligned container center aligned grid">
+        <div class="column">
+            <h2 class="ui teal image header">
+                <img src="assets/temp/King_Boo_DarkMoon.png" class="image">
+                <div class="content">
+                    Log-in to your account
+                </div>
+            </h2>
+            <form class="ui large form">
+                <div class="ui stacked segment">
+                    <div class="field">
+                        <div class="ui left icon input">
+                            <i class="user icon"></i>
+                            <input type="text" name="email" placeholder="E-mail address">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui left icon input">
+                            <i class="lock icon"></i>
+                            <input type="password" name="password" placeholder="Password">
+                        </div>
+                    </div>
+                    <div class="ui fluid large teal submit button">Login</div>
+                </div>
+
+                <div class="ui error message"></div>
+
+            </form>
+
+            <div class="ui message">
+                New to us? <button onclick="displayLogin()">Sign Up</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

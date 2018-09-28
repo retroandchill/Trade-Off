@@ -4,7 +4,7 @@ import mongoose from "mongoose";
  * DatabaseConnector class with Singleton implemented allowing only one core connector class to be available
  * at a time, thus preventing multiple connections from eventually causing errors in the server.
  */
-export default class DatabaseConnector {
+export default abstract class DatabaseConnector {
 
     // The only active instance of this class
     private static _instance: DatabaseConnector;
@@ -30,13 +30,4 @@ export default class DatabaseConnector {
         }
     }
 
-    public static get Instance() : DatabaseConnector
-    {
-        return this._instance || (this._instance = new DatabaseConnector());
-    }
-
-    /*
-    * Create your Mongoose Schema here? Or make this abstract, and extend it for more Object-Oriented type design!
-    * You decide!
-     */
 }
