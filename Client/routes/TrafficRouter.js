@@ -17,4 +17,7 @@ router.get('/', function (req, res) {
 router.get('/login', function (req, res) {
     res.sendFile(path.resolve("../Client/views/Login.html"));
 });
+router.get('/stocks', function (req, res) {
+    res.sendFile(path.resolve("../Client/views/StockInfo.html"));
+});
 exports.TrafficRouter = router;

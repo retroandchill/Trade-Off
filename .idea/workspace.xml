@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="130cbfa3-832b-45bf-810e-7dc8671b49a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Client/views/MainPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/routes/TrafficRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/routes/TrafficRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/routes/TrafficRouter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Client/routes/TrafficRouter.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/views/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Client/views/Login.html" afterDir="false" />
-    </list>
+    <list default="true" id="130cbfa3-832b-45bf-810e-7dc8671b49a3" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -118,9 +111,10 @@
     <session id="572530973">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -151,7 +145,7 @@
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="TypeScriptServerServiceImpl" value="1" />
+          <entry key="TypeScriptServerServiceImpl" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -192,8 +186,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Client/views/MainPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="188" column="51" selection-start-line="188" selection-start-column="51" selection-end-line="188" selection-end-column="51" />
+            <state relative-caret-position="952">
+              <caret line="188" selection-start-line="188" selection-end-line="188" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
               </folding>
@@ -204,8 +198,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Server/models/App.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="170">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -243,8 +237,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Client/views/Login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2363">
-              <caret line="139" column="107" selection-start-line="139" selection-start-column="107" selection-end-line="139" selection-end-column="107" />
+            <state relative-caret-position="2244">
+              <caret line="132" column="7" selection-start-line="132" selection-start-column="7" selection-end-line="132" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -398,15 +392,15 @@
       <workItem from="1538249366701" duration="125000" />
       <workItem from="1538251281091" duration="204000" />
       <workItem from="1538251497405" duration="273000" />
+      <workItem from="1538698905222" duration="209000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11542000" />
+    <option name="totallyTimeSpent" value="11751000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18914647" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -427,7 +421,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32832617" />
-      <window_info active="true" anchor="bottom" id="TypeScript" order="11" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="TypeScript" order="11" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -465,12 +459,12 @@
     <option name="version" value="1" />
     <option name="exactExcludedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Server/models/DatabaseConnector.js" />
-        <option value="$PROJECT_DIR$/Server/models/DatabaseConnectorUser.js" />
-        <option value="$PROJECT_DIR$/Server/models/App.js" />
         <option value="$PROJECT_DIR$/Server/Server.js" />
         <option value="$PROJECT_DIR$/Server/routes/UserManagementRouter.js" />
         <option value="$PROJECT_DIR$/Server/routes/StockRequestRouter.js" />
+        <option value="$PROJECT_DIR$/Server/models/DatabaseConnector.js" />
+        <option value="$PROJECT_DIR$/Server/models/DatabaseConnectorUser.js" />
+        <option value="$PROJECT_DIR$/Server/models/App.js" />
       </list>
     </option>
   </component>
@@ -502,11 +496,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Client/views/MainPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="188" column="51" selection-start-line="188" selection-start-column="51" selection-end-line="188" selection-end-column="51" />
+        <state relative-caret-position="952">
+          <caret line="188" selection-start-line="188" selection-end-line="188" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/models/App.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -519,25 +530,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Client/views/Login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2363">
-          <caret line="139" column="107" selection-start-line="139" selection-start-column="107" selection-end-line="139" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Server/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Server/models/App.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="2244">
+          <caret line="132" column="7" selection-start-line="132" selection-start-column="7" selection-end-line="132" selection-end-column="7" />
         </state>
       </provider>
     </entry>

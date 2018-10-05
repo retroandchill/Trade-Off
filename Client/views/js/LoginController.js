@@ -5,7 +5,6 @@ function displaySignup() {
 }
 
 function processLogin() {
-    // STUB: Will ping the server once I get more info from Conrad
     let postData = $("#loginForm").serializeArray();
 
     console.log(postData);
@@ -24,7 +23,6 @@ function processLogin() {
 }
 
 function processSignup() {
-    // STUB: Will ping the server once I get more info from Conrad
     let postData = $("#registerForm").serializeArray();
 
     console.log(postData);
