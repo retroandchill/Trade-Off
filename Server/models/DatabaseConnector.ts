@@ -1,9 +1,10 @@
-import mongoose from "mongoose";
-
 /**
  * DatabaseConnector class with Singleton implemented allowing only one core connector class to be available
  * at a time, thus preventing multiple connections from eventually causing errors in the server.
  */
+import * as mongoose from "mongoose";
+import {Schema} from "mongoose";
+
 export default abstract class DatabaseConnector {
 
     // The only active instance of this class
@@ -11,6 +12,25 @@ export default abstract class DatabaseConnector {
 
     //The mongoose database connection created by the constructor
     protected connection: mongoose.Connection;
+
+    protected UserOwnedTicker = new Schema({
+        ticker: String,
+        boughtAtPrice: Number,
+        numberOfShares: Number,
+        date: { type: Date, default: Date.now }
+    });
+
+    protected user = new Schema({
+        username: String,
+        passHash: String,
+        email: String,
+        passSalt: String,
+        ownedTickers: [this.UserOwnedTicker],
+        currentMoney: Number
+    });
+
+
+
 
     protected constructor() {
 

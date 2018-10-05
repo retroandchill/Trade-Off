@@ -14,12 +14,7 @@ export default class DatabaseConnectorUser extends DatabaseConnector {
 
     private Schema = mongoose.Schema;
 
-    private user = new Schema({
-        username: String,
-        passHash: String,
-        email: String,
-        passSalt: String
-    });
+
 
     public loginUser(userName, password): boolean{
 
@@ -29,7 +24,7 @@ export default class DatabaseConnectorUser extends DatabaseConnector {
                 console.log('FREAKING SCATTER! THEY CAN\'T CATCH US ALL!');
             }
 
-            // @ts-ignore
+            //@ts-ignore
             return (bcrypt.compareSync(password, result.passHash));
         });
 
