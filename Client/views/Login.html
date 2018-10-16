@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="semantic/semantic.min.css">
+    <link rel="stylesheet" href="semantic/semantic.min.css">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="semantic/semantic.min.js"></script>
     <script src="js/LoginController.js"></script>
@@ -13,27 +13,7 @@
 
     <!-- Site Properties -->
     <title>Login</title>
-    <link rel="stylesheet" type="text/css" href="../dist/components/reset.css">
-    <link rel="stylesheet" type="text/css" href="../dist/components/site.css">
 
-    <link rel="stylesheet" type="text/css" href="../dist/components/container.css">
-    <link rel="stylesheet" type="text/css" href="../dist/components/grid.css">
-    <link rel="stylesheet" type="text/css" href="../dist/components/header.css">
-    <link rel="stylesheet" type="text/css" href="../dist/components/image.css">
-    <link rel="stylesheet" type="text/css" href="../dist/components/menu.css">
-
-    <link rel="stylesheet" type="text/css" href="../dist/components/divider.css">
-    <link rel="stylesheet" type="text/css" href="../dist/components/segment.css">
-    <link rel="stylesheet" type="text/css" href="../dist/components/form.css">
-    <link rel="stylesheet" type="text/css" href="../dist/components/input.css">
-    <link rel="stylesheet" type="text/css" href="../dist/components/button.css">
-    <link rel="stylesheet" type="text/css" href="../dist/components/list.css">
-    <link rel="stylesheet" type="text/css" href="../dist/components/message.css">
-    <link rel="stylesheet" type="text/css" href="../dist/components/icon.css">
-
-    <script src="assets/library/jquery.min.js"></script>
-    <script src="../dist/components/form.js"></script>
-    <script src="../dist/components/transition.js"></script>
 
     <style type="text/css">
         body {
@@ -49,44 +29,6 @@
             max-width: 450px;
         }
     </style>
-    <script>
-        $(document)
-            .ready(function() {
-                $('.ui.form')
-                    .form({
-                        fields: {
-                            email: {
-                                identifier  : 'email',
-                                rules: [
-                                    {
-                                        type   : 'empty',
-                                        prompt : 'Please enter your e-mail'
-                                    },
-                                    {
-                                        type   : 'email',
-                                        prompt : 'Please enter a valid e-mail'
-                                    }
-                                ]
-                            },
-                            password: {
-                                identifier  : 'password',
-                                rules: [
-                                    {
-                                        type   : 'empty',
-                                        prompt : 'Please enter your password'
-                                    },
-                                    {
-                                        type   : 'length[6]',
-                                        prompt : 'Your password must be at least 6 characters'
-                                    }
-                                ]
-                            }
-                        }
-                    })
-                ;
-            })
-        ;
-    </script>
 </head>
 <body>
 
@@ -105,12 +47,12 @@
                             Create your account
                         </div>
                     </h2>
-                    <form class="ui large form">
+                    <form class="ui large form" id="registerForm">
                         <div class="ui stacked segment">
                             <div class="field">
                                 <div class="ui left icon input">
                                     <i class="user icon"></i>
-                                    <input type="text" name="email" placeholder="Username">
+                                    <input type="text" name="username" placeholder="Username">
                                 </div>
                             </div>
                             <div class="field">
@@ -122,7 +64,7 @@
                             <div class="field">
                                 <div class="ui left icon input">
                                     <i class="user icon"></i>
-                                    <input type="text" name="email" placeholder="Confirm E-mail address">
+                                    <input type="text" name="emailV" placeholder="Confirm E-mail address">
                                 </div>
                             </div>
                             <div class="field">
@@ -134,7 +76,7 @@
                             <div class="field">
                                 <div class="ui left icon input">
                                     <i class="lock icon"></i>
-                                    <input type="password" name="password" placeholder="Confirm Password">
+                                    <input type="password" name="passwordV" placeholder="Confirm Password">
                                 </div>
                             </div>
                             <div class="ui fluid large teal submit button" onclick="processSignup()">Sign Up</div>
@@ -161,7 +103,7 @@
                     Log-in to your account
                 </div>
             </h2>
-            <form class="ui large form">
+            <form class="ui large form" id="loginForm">
                 <div class="ui stacked segment">
                     <div class="field">
                         <div class="ui left icon input">

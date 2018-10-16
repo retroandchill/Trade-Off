@@ -13,4 +13,8 @@ router.get('/login', (req: Request, res: Response) => {
     res.sendFile(path.resolve("../Client/views/Login.html"));
 })
 
+router.get('/stocks', (req: Request, res: Response) => {
+    res.sendFile(path.resolve("../Client/views/StockInfo.html"));
+})
+
 export const TrafficRouter: Router = router;
