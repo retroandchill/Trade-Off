@@ -50,3 +50,5 @@ router.post('/loginhandler', (req: Request, res: Response) => {
     }
 
 })
+
+export const UserManagementRouter: Router = router;
