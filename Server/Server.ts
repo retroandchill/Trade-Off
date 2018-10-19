@@ -1,5 +1,4 @@
 // Import the environmental variables from the configuration file
-import {UserManagementRouter} from "./routes/UserManagementRouter";
 
 require ('dotenv').config();
 import app from './models/App';
