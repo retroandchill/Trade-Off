@@ -27,7 +27,6 @@ function processSignup() {
 
     console.log(postData);
 
-
     let loginData = {'Username': postData.username, 'Email': postData.email, 'Password': postData.password};
 
 
