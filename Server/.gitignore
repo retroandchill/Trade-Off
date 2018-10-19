@@ -53,7 +53,7 @@ atlassian-ide-plugin.xml
 # Cursive Clojure plugin
 .idea/replstate.xml
 
-# Crashlytics plugin (for Android Studio and IntelliJ)
+# Crashlytics plugin (for Android Studio and IntelliJ)it
 com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
@@ -68,4 +68,3 @@ node_modules/
 package-lock.json
 
 *.js
-
