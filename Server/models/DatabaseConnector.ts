@@ -24,6 +24,12 @@ export default abstract class DatabaseConnector {
         currentMoney: Number
     });
 
+    protected userAccountWorthHistory = new Schema({
+        username: String,
+        referenceDate: Date,
+        dailyEndMoneyAmount: Number
+    });
+
     protected constructor() {
 
         mongoose.connect('mongodb://testuser:testuser1@ds155862.mlab.com:55862/tradeoff', {useNewUrlParser: true});

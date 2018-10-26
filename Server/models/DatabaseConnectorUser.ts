@@ -48,4 +48,42 @@ export default class DatabaseConnectorUser extends DatabaseConnector {
         // The entry has been saved properly
         return true;
     }
+
+    public getUserHistoryDateByRange(userName: string, lowerBoundDate: Date, upperBoundDate: Date): boolean{
+
+        let passUserDataHistoryModel = mongoose.model('passUserDataHistoryModel', this.user);
+        passUserDataHistoryModel.find({'userName': userName, 'Date': {$gte: lowerBoundDate, $lte: upperBoundDate}}, function(err, result) {
+            if(err) {
+                console.log('FREAKING SCATTER! THEY CAN\'T CATCH US ALL!');
+            }
+
+            //@ts-ignore
+            return result;
+        });
+
+        // User didn't exist
+        return false;
+
+    }
+
+    public InsertDailyEndOfDayWorth(userName: string, currentDate: Date, currentMoney: Number): boolean{
+
+        //NOTE: MAKE SURE TO USE THE CONNECTION MODEL, NOT THE MONGOOSE.MODEL LISTED IN DOCUMENTS
+        let userAccountWorthHistory = this.connection.model('userAccountWorthHistory', this.user);
+
+        let userQuery = new userAccountWorthHistory({ username: userName, referenceDate: Date, dailyEndMoneyAmount: Number});
+
+        // @ts-ignore
+        userQuery.save(err => {
+            if (err)
+            {
+                console.log('FAAAAKK REGISTERING USER WONT SAVE!!!! SEND HELP!');
+                return false;
+            }
+        });
+
+        // The entry has been saved properly
+        return true;
+    }
+
 }
