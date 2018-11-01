@@ -4,7 +4,6 @@
     <link rel="stylesheet" href="semantic/semantic.min.css">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="semantic/semantic.min.js"></script>
-    <script src="js/SidebarController.js"></script>
 
     <!-- Standard Meta -->
     <meta charset="utf-8">
@@ -64,9 +63,6 @@
 </div>
 
 <div class="ui fixed inverted menu">
-    <a href="#" class="header item" onclick="toggleSidebar()">
-        <i class="huge bars icon" ></i>
-    </a>
     <div class="ui container">
         <a href="#" class="header item">
             <img class="logo" src="assets/temp/ness.png">
@@ -101,7 +97,23 @@
 
 <div class="ui padded grid">
     <div class="twelve wide middle aligned column">
-        <canvas id="myChart" width="400" height="400"></canvas>
+        <table class="ui celled padded table">
+            <tr>
+                <td>
+                    <canvas id="chart" width="400" height="400"></canvas>
+                </td>
+            </tr>
+            <tr>
+            <tr>
+                <td>
+                    <div class="ui button">1 Day</div>
+                    <div class="ui button">3 Days</div>
+                    <div class="ui button">1 Week</div>
+                    <div class="ui button">1 Month</div>
+                    <div class="ui button">1 Year</div>
+                </td>
+            </tr>
+        </table>
 
         <table class="ui celled padded table">
             <thead>
@@ -218,4 +230,8 @@
 
 
 </body>
+
+
+<script src="js/CreateGraph.js"></script>
 </html>
+
