@@ -3,6 +3,7 @@ import bodyParser = require("body-parser");
 import cors from 'cors';
 import {UserManagementRouter} from "../routes/UserManagementRouter";
 import {StockRequestRouter} from "../routes/StockRequestRouter";
+import session = require("express-session");
 
 class App {
 
@@ -26,6 +27,13 @@ class App {
             res.setHeader('Access-Control-Allow-Credentials', 'true');
             next();
         });
+
+        // Set up the session middleware - Do not use secure: true -- since we aren't using HTTPS
+        this.app.use(session({
+            secret: 'woah there bucko',
+            resave: false,
+            saveUninitialized: false // THIS MIGHT NEED TO BE TRUE!!! 'A session is uninitialized when it is new but not modified. '
+        }))
     }
 
     private setRoutes(): void {

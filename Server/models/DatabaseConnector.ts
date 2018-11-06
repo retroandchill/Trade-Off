@@ -1,4 +1,4 @@
-import {Schema} from "mongoose";
+import {Schema, Connection} from "mongoose";
 
 const mongoose = require('mongoose');
 
@@ -6,7 +6,7 @@ export default abstract class DatabaseConnector {
 
     // The mongoose database connection created by the consturctor
     //@ts-ignore
-    protected connection: mongoose.Connection;
+    protected connection: Connection;
 
     protected UserOwnedTicker = new Schema({
         ticker: String,

@@ -51,7 +51,12 @@ router.post('/loginhandler', (req: Request, res: Response) => {
 
     if(userDatabase.loginUser(username, password)) {
 
-        //TODO: The user has logged in! Create a session for them!
+        // The user exists! Set their username in their session values
+        // @ts-ignore
+        req.session.username = username;
+
+        // Redirect them to the stocks page
+        res.redirect('/stocks');
 
         res.status(200);
     }
@@ -62,5 +67,24 @@ router.post('/loginhandler', (req: Request, res: Response) => {
     }
 
 });
+
+/**
+ * Handle a GET request under /logout which destroys the user session and redirects them back to the home page
+ * Sets HTTP status 200 if everything went alright
+ * Sets HTTP status 503 if there was a server error
+ */
+router.get('/logout', (req: Request, res: Response) => {
+    // @ts-ignore
+    req.session.destroy(function (err) {
+        if(err) {
+            // Failed
+            res.status(503).end();
+        }
+        else {
+            // Complete! Redirect the user
+            res.redirect('/');
+        }
+    })
+})
 
 export const UserManagementRouter: Router = router;

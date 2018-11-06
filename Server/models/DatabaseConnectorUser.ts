@@ -1,6 +1,7 @@
 import DatabaseConnector from "./DatabaseConnector";
-import * as mongoose from "mongoose";
 import * as bcrypt from 'bcrypt';
+import {Schema} from 'mongoose';
+import * as mongoose from "mongoose";
 
 export default class DatabaseConnectorUser extends DatabaseConnector {
 
@@ -8,11 +9,11 @@ export default class DatabaseConnectorUser extends DatabaseConnector {
         super();
     };
 
-    private Schema = mongoose.Schema;
+    private Schema = Schema;
 
     public loginUser(userName: string, password: string): boolean{
 
-        let passUserDataModel = mongoose.model('passUserDataModel', this.user);
+        let passUserDataModel = mongoose.model('user', this.user);
         passUserDataModel.findOne({'userName': userName}, 'username, passHash', function(err, result) {
             if(err) {
                 console.log('FREAKING SCATTER! THEY CAN\'T CATCH US ALL!');
