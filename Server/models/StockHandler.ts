@@ -1,4 +1,4 @@
-import {lookup, history} from 'yahoo-stocks';
+/*import {lookup, history} from 'yahoo-stocks';
 
 export default class StockHandler {
 
@@ -26,4 +26,4 @@ export default class StockHandler {
         });
     }
 
-}
+}*/

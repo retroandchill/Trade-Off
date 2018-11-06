@@ -28,6 +28,7 @@ export default class DatabaseConnectorUser extends DatabaseConnector {
     }
 
     public registerUser(userName: string, passWord: string, email: string): boolean{
+
         let salt = bcrypt.genSaltSync(1);
         let hash = bcrypt.hashSync(passWord, salt);
 

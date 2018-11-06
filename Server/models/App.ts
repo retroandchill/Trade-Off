@@ -15,8 +15,8 @@ class App {
     }
 
     private config(): void {
-        this.app.use(bodyParser.json({limit: '500mb'}));
-        this.app.use(bodyParser({limit: '50mb'}));
+
+        this.app.use(bodyParser.urlencoded({extended: false}));
 
         this.app.use(cors({origin: 'http://localhost:80'}));
         this.app.use((req, res, next) => {

@@ -8,16 +8,16 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var express_1 = require("express");
-var path = __importStar(require("path"));
-var router = express_1.Router();
-router.get('/', function (req, res) {
+const express_1 = require("express");
+const path = __importStar(require("path"));
+const router = express_1.Router();
+router.get('/', (req, res) => {
     res.sendFile(path.resolve("../Client/views/MainPage.html"));
 });
-router.get('/login', function (req, res) {
+router.get('/login', (req, res) => {
     res.sendFile(path.resolve("../Client/views/Login.html"));
 });
-router.get('/stocks', function (req, res) {
+router.get('/stocks', (req, res) => {
     res.sendFile(path.resolve("../Client/views/StockInfo.html"));
 });
 exports.TrafficRouter = router;

@@ -1,7 +1,3 @@
-// Import the stuffs
-import Chart from "chart.js";
-
-// Create the data element
 var data = [];
 var actualData = [];
 
@@ -40,13 +36,6 @@ $(function() {
                     showLine: true,
                     borderColor: '#FF6600'
                 }]
-        },
-        options: {
-            scales: {
-                xAxes: [{
-                    type: 'linear'
-                }]
-            }
         }
     });
 });

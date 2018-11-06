@@ -13,26 +13,29 @@ const userDatabase: DatabaseConnectorUser = new DatabaseConnectorUser();
  * Sets HTTP status 503 if the registration failed for some reason. (Should never happen, but might)
  */
 router.post('/registrationhandler', (req: Request, res: Response) => {
-    let username: string = req.query.username;
-    let password: string = req.query.password;
-    let email: string = req.query.email;
+
+    //TODO: Don't allow users to register twice with the same email address
+
+    let username: string = req.body.username;
+    let password: string = req.body.password;
+    let email: string = req.body.email;
 
     if(username == null || password == null || email == null) {
 
         // There was malformed information being sent from the client somehow. Send a proper error code.
-        res.status(403).send('Malformed POST input').end();
+        res.status(403).end();
     }
 
     if(userDatabase.registerUser(username, password, email)) {
 
         // The user was able to register properly!
-        res.status(201).send('Registered successfully!').end();
+        res.status(201).end();
 
         console.log('User registered:' + username);
     }
 
     // Something weird happen on the server!
-    res.status(503).send('Server has encountered an error').end();
+    res.status(503).end();
 });
 
 
