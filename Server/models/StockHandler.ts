@@ -1,29 +1,21 @@
-/*import {lookup, history} from 'yahoo-stocks';
+// @ts-ignore
+import {lookup, history} from 'yahoo-stocks';
 
 export default class StockHandler {
 
     //TODO: Potentally change this to an async function
-    public getStockCurrentData(ticker: String) {
+    public async getStockCurrentData(ticker: String) {
 
-        lookup(ticker).then(response => {
-            return response;
-        })
+        return lookup(ticker);
 
     };
 
-    public getCurrentWeekStockData(ticker: String) {
-
-        history(ticker).then(response => {
-            return response;
-        });
-
+    public async getCurrentWeekStockData(ticker: String) {
+        return history(ticker);
     }
 
     public getCurrentMonthStockData(ticker: String) {
-
-        history(ticker, {interval: '1d', range: '1mo'}).then(response => {
-            return response;
-        });
+        return history(ticker, {interval: '1d', range: '1mo'});
     }
 
-}*/
+}
