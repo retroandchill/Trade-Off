@@ -18,4 +18,8 @@ export default class StockHandler {
         return history(ticker, {interval: '1d', range: '1mo'});
     }
 
+    public async getMaxStockData(ticker: String) {
+        return history(ticker, {interval: '1d', range: 'max'});
+    }
+
 }

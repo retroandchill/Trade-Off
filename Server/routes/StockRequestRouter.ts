@@ -40,4 +40,18 @@ router.post('/requestStockWeekly/:StockTicker', async (req: Request, res: Respon
 
 });
 
+router.post('/requestStockMax/:StockTicker', async (req: Request, res: Response) => {
+
+    // Parse the requested ticker from the parameters
+    let ticker: String = req.params.StockTicker;
+
+    try {
+        let val = await stock.getMaxStockData(ticker);
+        res.send(val).status(201).end();
+    }
+    catch (err) {
+        res.status(204).end();
+    }
+});
+
 export const StockRequestRouter: Router = router;
