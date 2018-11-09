@@ -10,7 +10,7 @@ $(document).ready(function() {
         let ticker = $("#stockSearch").val();
 
         // Add the loading circle to the text DOM element
-        //TODO: Fix this
+        //TODO: Icon does not appear like it should for some reason
         $("#stockSearchContainer").addClass("right icon loading");
 
         // Make the ajax query for the ticker in question
@@ -18,14 +18,22 @@ $(document).ready(function() {
         $.post("http://localhost:3000/requestStockDaily/" + ticker,
             function(data, textStatus, xhr) {
 
-            // If the status is '204' - There was no ticker matching the supplied value.
-                if(xhr.status == 204) {
-                    //TODO: Do something proper here
-                    console.log("Sheeeeettt");
-                    return;
-                }
+            // Remove the loading class
+                $('#stockSearchContainer').removeClass('right icon loading');
 
-                // Data is filled out correctly
+                // If the status is '204' - There was no ticker matching the supplied value.
+                if(xhr.status == 204) {
+
+                    $('#stockSearchContainer').transition('shake');
+                    $('#stockSearchContainer').addClass('error');
+
+                    setTimeout(function() {
+                        // After 1 second, remove the error class
+                        $('#stockSearchContainer').removeClass('error');
+                    }, 1000);
+
+
+                }
 
 
             });
