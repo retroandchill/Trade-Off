@@ -13,14 +13,16 @@ export default class DatabaseConnectorUser extends DatabaseConnector {
 
     public loginUser(userName: string, password: string): boolean{
 
-        let passUserDataModel = mongoose.model('user', this.user);
+        let passUserDataModel = this.connection.model('user', this.user);
         passUserDataModel.findOne({'userName': userName}, 'username, passHash', function(err, result) {
             if(err) {
                 console.log('FREAKING SCATTER! THEY CAN\'T CATCH US ALL!');
             }
-
-            //@ts-ignore
+            console.log("result: " + result);
+            console.log("passhash: " + result.passHash);
+            console.log("password: " + password);
             return (bcrypt.compareSync(password, result.passHash));
+
         });
 
         // User didn't exist
@@ -53,7 +55,7 @@ export default class DatabaseConnectorUser extends DatabaseConnector {
 
     public getUserHistoryDateByRange(userName: string, lowerBoundDate: Date, upperBoundDate: Date): boolean{
 
-        let passUserDataHistoryModel = mongoose.model('passUserDataHistoryModel', this.user);
+        let passUserDataHistoryModel = this.connection.model('passUserDataHistoryModel', this.user);
         passUserDataHistoryModel.find({'userName': userName, 'Date': {$gte: lowerBoundDate, $lte: upperBoundDate}}, function(err, result) {
             if(err) {
                 console.log('FREAKING SCATTER! THEY CAN\'T CATCH US ALL!');

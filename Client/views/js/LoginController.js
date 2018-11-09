@@ -5,9 +5,11 @@ function displaySignup() {
 function processLogin() {
     let postData = $("#loginForm").serializeArray();
 
-    console.log(postData);
+    //console.log(postData);
+    //console.log(postData[0].value);
+    //console.log(postData[1].value);
 
-    let loginData = {'Email': postData.email, 'Password': postData.password};
+    let loginData = {'Email': postData[0].value, 'Password': postData[1].value};
 
     $.ajax({
         type: 'POST',

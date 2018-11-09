@@ -46,8 +46,8 @@ router.post('/registrationhandler', (req: Request, res: Response) => {
  * Returns a string value with either 'success' or 'failed' to the requester based on if the request succeeded or not
  */
 router.post('/loginhandler', (req: Request, res: Response) => {
-    let username = req.query.username;
-    let password: string = req.query.password;
+    let username = req.params.username;
+    let password = req.params.password;
 
     if(userDatabase.loginUser(username, password)) {
 
