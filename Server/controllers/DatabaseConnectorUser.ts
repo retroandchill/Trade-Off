@@ -1,7 +1,6 @@
 import DatabaseConnector from "./DatabaseConnector";
 import * as bcrypt from 'bcrypt';
-import {Schema} from 'mongoose';
-import * as mongoose from "mongoose";
+import * as e from "express";
 
 export default class DatabaseConnectorUser extends DatabaseConnector {
 
@@ -9,28 +8,35 @@ export default class DatabaseConnectorUser extends DatabaseConnector {
         super();
     };
 
-    private Schema = Schema;
-
-    public loginUser(userName: string, password: string): boolean{
+    public async loginUser(req: e.Request, res: e.Response){
 
         let passUserDataModel = this.connection.model('user', this.user);
-        passUserDataModel.findOne({'userName': userName}, 'username, passHash', function(err, result) {
+        return passUserDataModel.findOne({'email': req.body.Email}, 'passHash passSalt', function(err, result) {
             if(err) {
                 console.log('FREAKING SCATTER! THEY CAN\'T CATCH US ALL!');
+                return false;
             }
-            console.log("result: " + result);
-            console.log("passhash: " + result.passHash);
-            console.log("password: " + password);
-            return (bcrypt.compareSync(password, result.passHash));
 
+            if(result == null) {
+                console.log("[Warning] Supplied email address doesn't match a schema entry");
+                return false;
+            }
+
+            console.log(result);
+
+            // Check if a rehashed password using the same salt produces what we retrieved from the database
+            // @ts-ignore
+            if(bcrypt.hashSync(req.body.Password, result.passSalt) == result.passHash) {
+                return true;
+            }
+
+            else {
+                return false;
+            }
         });
-
-        // User didn't exist
-        return false;
-
     }
 
-    public registerUser(userName: string, passWord: string, email: string): boolean{
+    public registerUser(passWord: string, email: string): boolean{
 
         let salt = bcrypt.genSaltSync(1);
         let hash = bcrypt.hashSync(passWord, salt);
@@ -38,7 +44,7 @@ export default class DatabaseConnectorUser extends DatabaseConnector {
         //NOTE: MAKE SURE TO USE THE CONNECTION MODEL, NOT THE MONGOOSE.MODEL LISTED IN DOCUMENTS
         let User = this.connection.model('User', this.user);
 
-        let userQuery = new User({ username: userName, passHash: hash, email: email, passSalt: salt });
+        let userQuery = new User({ passHash: hash, email: email, passSalt: salt });
 
         // @ts-ignore
         userQuery.save(err => {
@@ -70,12 +76,12 @@ export default class DatabaseConnectorUser extends DatabaseConnector {
 
     }
 
-    public InsertDailyEndOfDayWorth(userName: string, currentDate: Date, currentMoney: Number): boolean{
+    public InsertDailyEndOfDayWorth(currentDate: Date, currentMoney: Number): boolean{
 
         //NOTE: MAKE SURE TO USE THE CONNECTION MODEL, NOT THE MONGOOSE.MODEL LISTED IN DOCUMENTS
         let userAccountWorthHistory = this.connection.model('userAccountWorthHistory', this.user);
 
-        let userQuery = new userAccountWorthHistory({ username: userName, referenceDate: Date, dailyEndMoneyAmount: Number});
+        let userQuery = new userAccountWorthHistory({ referenceDate: Date, dailyEndMoneyAmount: Number});
 
         // @ts-ignore
         userQuery.save(err => {

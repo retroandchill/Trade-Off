@@ -16,9 +16,8 @@ export default abstract class DatabaseConnector {
     });
 
     protected user = new Schema({
-        username: String,
-        passHash: String,
         email: String,
+        passHash: String,
         passSalt: String,
         ownedTickers: [this.UserOwnedTicker],
         currentMoney: Number
@@ -32,7 +31,7 @@ export default abstract class DatabaseConnector {
 
     protected constructor() {
 
-        mongoose.connect('mongodb://testuser:testuser1@ds155862.mlab.com:55862/tradeoff', {useNewUrlParser: true});
+        mongoose.connect('mongodb://testuser:testuser1@ds159263.mlab.com:59263/tradeoff', {useNewUrlParser: true});
         this.connection = mongoose.connection;
 
         // Give a console notification if we've connected properly!

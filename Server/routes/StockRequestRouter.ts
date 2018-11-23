@@ -1,5 +1,5 @@
 import {Router, Request, Response} from "express";
-import StockHandler from "../models/StockHandler";
+import StockHandler from "../controllers/StockHandler";
 
 const router: Router = Router();
 

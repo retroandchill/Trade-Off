@@ -1,7 +1,5 @@
-//TODO: Add CORS security
-
 import {Router, Request, Response} from "express";
-import DatabaseConnectorUser from "../models/DatabaseConnectorUser";
+import DatabaseConnectorUser from "../controllers/DatabaseConnectorUser";
 
 const router: Router = Router();
 const userDatabase: DatabaseConnectorUser = new DatabaseConnectorUser();
@@ -16,22 +14,21 @@ router.post('/registrationhandler', (req: Request, res: Response) => {
 
     //TODO: Don't allow users to register twice with the same email address
 
-    let username: string = req.body.username;
     let password: string = req.body.password;
     let email: string = req.body.email;
 
-    if(username == null || password == null || email == null) {
+    if(password == null || email == null) {
 
         // There was malformed information being sent from the client somehow. Send a proper error code.
         res.status(403).end();
     }
 
-    if(userDatabase.registerUser(username, password, email)) {
+    if(userDatabase.registerUser(password, email)) {
 
         // The user was able to register properly!
         res.status(201).end();
 
-        console.log('User registered:' + username);
+        console.log('User registered:' + email);
     }
 
     // Something weird happen on the server!
@@ -85,6 +82,6 @@ router.get('/logout', (req: Request, res: Response) => {
             res.redirect('/');
         }
     })
-})
+});
 
 export const UserManagementRouter: Router = router;
