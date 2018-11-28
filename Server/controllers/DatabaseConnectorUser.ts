@@ -96,4 +96,20 @@ export default class DatabaseConnectorUser extends DatabaseConnector {
         return true;
     }
 
+    public getUser(email: string): object {
+
+        let user = this.connection.model('user', this.user);
+        user.find({'email': email}, function(err, result) {
+            if(err) {
+                console.log("This user doesn't exist");
+                //TODO: Log this somewhere
+                return {};
+            }
+
+            // The user exists, return the object
+            return result;
+        });
+
+        return { }
+    }
 }

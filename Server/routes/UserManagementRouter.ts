@@ -84,4 +84,24 @@ router.get('/logout', (req: Request, res: Response) => {
     })
 });
 
+/**
+ * Handle a POST request which returns the number of stocks a user owns for a supplied ticker.
+ * Sets HTTP status 200 if everything went alright, and returns a single numeric value with the key 'amount' with the valid number
+ * Sets HTTP status 503 if there was a server error
+ */
+router.post('/getUserTickerAmount/:userEmail/:stockTicker', (req: Request, res: Response) => {
+
+    let ticker: string = req.params.stockTicker;
+    let data: object = userDatabase.getUser(req.params.userEmail);
+
+   // Check if the data entry is empty - If so, the user does not exist
+    if(!Object.keys(data).length) {
+        res.status(503).end();
+    }
+
+    // Otherwise, return the number of tickers that the user owns
+    //TODO: Finish this
+    
+});
+
 export const UserManagementRouter: Router = router;

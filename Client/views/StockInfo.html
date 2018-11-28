@@ -244,11 +244,35 @@
 
 <!-- THIS MODAL IS USED FOR DISPLAYING STOCK INFORMATION -->
 <div class="ui fullscreen modal" id="tickerModal">
-    <div class="ui segment">
-        <button class="ui right floated button" onclick="closeModal()"(>Close</button>
-        <h1 class="ui header center aligned" id="tickerName"></h1>
+    <div class="ui segment grid">
 
-        <canvas id="tickerChart" width="800" height="400"></canvas>
+        <div class="twelve wide column">
+            <!-- Left column displaying the stock chart and ticker name -->
+            <h1 class="ui header center aligned" id="tickerName"></h1>
+            <canvas id="tickerChart" width="800" height="400"></canvas>
+        </div>
+
+        <div class="four wide column">
+            <!-- Right column containing the buy and sell button -->
+            <button class="ui right floated button" onclick="closeTickerModal()" (>Close</button>
+
+
+        </div>
+
+    </div>
+</div>
+
+<!-- Modal which is displayed when the user decides to make a buy operation -->
+<div class="ui modal" id="buyModal">
+    <div class="ui segment grid">
+
+    </div>
+</div>
+
+<!-- Modal which is displayed when the user decides to make a sell operation -->
+<div class="ui modal" id="sellModal">
+    <div class="ui segment grid">
+
     </div>
 </div>
 

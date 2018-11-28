@@ -55,8 +55,16 @@ function setupStockSegment(tickerMaxData, tickerName) {
     // Parse out just the relevent end of day values from the response
     let data = [];
 
+    // Variable containing the max value which the stock has reached
+    let maxVal = 0;
+
     for(let i = 0; i < tickerMaxData.records.length; i++) {
         data.push(tickerMaxData.records[i].close.toFixed(2));
+
+        // If the value is bigger than the maximum value, update the max
+        if(tickerMaxData.records[i].close.toFixed(2) > maxVal) {
+            maxVal = tickerMaxData.records[i].close.toFixed(2);
+        }
     }
 
     console.log(data);
@@ -68,7 +76,14 @@ function setupStockSegment(tickerMaxData, tickerName) {
             yAxes: [{
                 display: true,
                 ticks: {
+                    suggestedMax: maxVal,
                     beginAtZero: true
+                }
+            }],
+            xAxes: [{
+                display: true,
+                ticks: {
+                    suggestedMin: data.length
                 }
             }]
         }
@@ -98,7 +113,7 @@ function setupStockSegment(tickerMaxData, tickerName) {
 
 }
 
-function closeModal() {
+function closeTickerModal() {
     $("#tickerModal").modal('hide');
 }
 
@@ -120,3 +135,8 @@ function getCurrentStockData(ticker) {
         });
 }
 
+// Theoretically this should work with session data, so we don't need to give it more data than just the ticker
+function getUserStockOwned(ticker) {
+
+
+}
