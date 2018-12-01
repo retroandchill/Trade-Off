@@ -39,8 +39,16 @@ $(document).ready(function() {
                     return;
                 }
 
-                // Set up the stock modal with the data we recieved
-                setupStockSegment(data, ticker);
+                $.post("http://localhost:3000/requestStockDaily/" + ticker,
+                    function(dailyData, textStatus, xhr2) {
+
+                    if(xhr2.status == 204) {
+                        console.log("UH OH");
+                    }
+
+                    setupStockSegment(data, ticker, dailyData)
+
+                    })
 
 
             });
@@ -50,7 +58,7 @@ $(document).ready(function() {
 /**
  * Function which sets up the stock modal with valid MAX data from the server
  */
-function setupStockSegment(tickerMaxData, tickerName) {
+function setupStockSegment(tickerMaxData, tickerName, dailyData) {
 
     // Parse out just the relevent end of day values from the response
     let data = [];
@@ -107,6 +115,11 @@ function setupStockSegment(tickerMaxData, tickerName) {
 
     // Set the ticker name in the modal
     $("#tickerName").text(tickerName);
+    $("#tickerInformation").append("Current Value: " + dailyData.currentPrice + "<br>");
+    $("#tickerInformation").append("High Price: " + dailyData.highPrice + "<br>");
+    $("#tickerInformation").append("Low Price: " + dailyData.lowPrice + "<br>");
+    $("#tickerInformation").append("Median Price: " + dailyData.medianPrice + "<br>");
+    $("#tickerInformation").append("Mean Price: " + dailyData.meanPrice + "<br>");
 
     $("#tickerModal").modal('show');
 
@@ -115,6 +128,7 @@ function setupStockSegment(tickerMaxData, tickerName) {
 
 function closeTickerModal() {
     $("#tickerModal").modal('hide');
+    $("#tickerInformation").empty();
 }
 
 /**
