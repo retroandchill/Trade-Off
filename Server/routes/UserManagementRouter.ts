@@ -104,4 +104,29 @@ router.post('/getUserTickerAmount/:userEmail/:stockTicker', (req: Request, res: 
     
 });
 
+/**
+ * Handle a POST request which returns all of the information for a user.
+ * Sets HTTP status to 200 and sends valid data if a user has been found
+ * Sets HTTP status to 204 if there is no valid content
+ */
+router.post('/getUserData/:emailaddress', (req: Request, res: Response) => {
+
+    let email: string = req.params.emailaddress;
+
+    // Attempt to get the information from the backend
+    let userData = userDatabase.getUser(email);
+
+    // If userData is an empty object, the user does not exist. Return such
+    if(Object.keys(userData).length === 0 && userData.constructor === Object) {
+        res.send("{ }").status(204).end();
+        return;
+    }
+
+    else {
+        res.send(userData).status(200).end();
+    }
+
+});
+
+
 export const UserManagementRouter: Router = router;
