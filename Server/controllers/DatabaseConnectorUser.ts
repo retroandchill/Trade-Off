@@ -96,10 +96,10 @@ export default class DatabaseConnectorUser extends DatabaseConnector {
         return true;
     }
 
-    public getUser(email: string): object {
+    public async getUser(email: string) {
 
         let user = this.connection.model('user', this.user);
-        user.find({'email': email}, function(err, result) {
+        return user.find({'email': email}, function(err, result) {
             if(err) {
                 console.log("This user doesn't exist");
                 //TODO: Log this somewhere
@@ -109,7 +109,5 @@ export default class DatabaseConnectorUser extends DatabaseConnector {
             // The user exists, return the object
             return result;
         });
-
-        return { }
     }
 }
