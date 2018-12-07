@@ -191,7 +191,20 @@
         <div class="twelve wide column">
             <!-- Left column displaying the stock chart and ticker name -->
             <h1 class="ui header center aligned" id="tickerName"></h1>
-            <canvas id="tickerChart" width="800" height="400"></canvas>
+            <table class="ui celled padded table">
+                <tr align="center">
+                    <canvas id="tickerChart" width="800" height="400"></canvas>
+                </tr>
+                <tr align="center">
+                    <td>
+                        <div class="ui button">1 Day</div>
+                        <div class="ui button">3 Days</div>
+                        <div class="ui button">1 Week</div>
+                        <div class="ui button">1 Month</div>
+                        <div class="ui button">1 Year</div>
+                    </td>
+                </tr>
+            </table>
         </div>
 
         <div class="four wide column">

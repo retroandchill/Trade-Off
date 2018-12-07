@@ -67,11 +67,12 @@ function setupStockSegment(tickerMaxData, tickerName, dailyData) {
     let maxVal = 0;
 
     for(let i = 0; i < tickerMaxData.records.length; i++) {
-        data.push(tickerMaxData.records[i].close.toFixed(2));
+        var close = Number(tickerMaxData.records[i].close.toFixed(2))
+        data.push({x: i, y: close});
 
         // If the value is bigger than the maximum value, update the max
-        if(tickerMaxData.records[i].close.toFixed(2) > maxVal) {
-            maxVal = tickerMaxData.records[i].close.toFixed(2);
+        if(close > maxVal) {
+            maxVal = close;
         }
     }
 
@@ -84,18 +85,21 @@ function setupStockSegment(tickerMaxData, tickerName, dailyData) {
             yAxes: [{
                 display: true,
                 ticks: {
-                    suggestedMax: maxVal,
+                    suggestedMax: Number(maxVal),
                     beginAtZero: true
                 }
             }],
             xAxes: [{
                 display: true,
                 ticks: {
-                    suggestedMin: data.length
+                    suggestedMax: data.length,
+                    beginAtZero: true
                 }
             }]
         }
     };
+
+    console.log(options);
 
     let chartData = {
         datasets: [{
@@ -108,7 +112,7 @@ function setupStockSegment(tickerMaxData, tickerName, dailyData) {
 
     // Create the MAX chart for the stock
     var tickerChart = new Chart($("#tickerChart"), {
-        type: 'line',
+        type: 'scatter',
         data: chartData,
         options: options
     });
