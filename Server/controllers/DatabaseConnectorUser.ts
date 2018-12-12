@@ -8,10 +8,10 @@ export default class DatabaseConnectorUser extends DatabaseConnector {
         super();
     };
 
-    public async loginUser(req: e.Request, res: e.Response){
+    public loginUser(req: e.Request, res: e.Response){
 
         let passUserDataModel = this.connection.model('user', this.user);
-        return passUserDataModel.findOne({'email': req.body.Email}, 'passHash passSalt', function(err, result) {
+        passUserDataModel.findOne({'email': req.body.Email}, 'passHash passSalt', function(err, result) {
             if(err) {
                 console.log('FREAKING SCATTER! THEY CAN\'T CATCH US ALL!');
                 return false;
@@ -59,20 +59,19 @@ export default class DatabaseConnectorUser extends DatabaseConnector {
         return true;
     }
 
-    public getUserHistoryDateByRange(userName: string, lowerBoundDate: Date, upperBoundDate: Date): boolean{
+    public getUserHistoryDateByRange(email: string, lowerBoundDate: Date, upperBoundDate: Date){
 
         let passUserDataHistoryModel = this.connection.model('passUserDataHistoryModel', this.user);
-        passUserDataHistoryModel.find({'userName': userName, 'Date': {$gte: lowerBoundDate, $lte: upperBoundDate}}, function(err, result) {
+        return passUserDataHistoryModel.find({'email': email, 'Date': {$gte: lowerBoundDate, $lte: upperBoundDate}}, function(err, result) {
             if(err) {
                 console.log('FREAKING SCATTER! THEY CAN\'T CATCH US ALL!');
+                return { };
             }
 
             //@ts-ignore
             return result;
         });
 
-        // User didn't exist
-        return false;
 
     }
 
@@ -96,6 +95,10 @@ export default class DatabaseConnectorUser extends DatabaseConnector {
         return true;
     }
 
+    /**
+     * Async function returning the full information of a user in the database. If one does not exist, an empty jsonObject is returned
+     * @param email
+     */
     public async getUser(email: string) {
 
         let user = this.connection.model('user', this.user);
@@ -110,4 +113,12 @@ export default class DatabaseConnectorUser extends DatabaseConnector {
             return result;
         });
     }
+
+
+    public processBuyOrder(email: string, ticker: string, numShares: number) {
+
+
+
+    }
+
 }

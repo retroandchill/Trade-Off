@@ -104,6 +104,59 @@ router.post('/getUserTickerAmount/:userEmail/:stockTicker', (req: Request, res: 
     
 });
 
+router.post('/buyTicker/:userEmail/:ticker/:shareNumber', async (req: Request, res: Response) => {
+
+    let email: string = req.params.userEmail;
+    let ticker: string = req.params.ticker;
+    let shareNumber: number = req.params.shareNumber;
+
+    // Verify that the user exists
+    let userData = await userDatabase.getUser(email);
+
+    // If userData is an empty object, the user does not exist. Return such
+    if (Object.keys(userData).length === 0 && userData.constructor === Object) {
+        res.send("[]").status(204).end();
+        return;
+    }
+
+    // We know that the user exists, run a buy order
+
+});
+
+
+/**
+ * Handle a POST request which gets an array of json objects relating to the stocks which the user owns.
+ * Sets HTTP status 200 if everything went alright, returning a JsonArray of JsonObjects
+ * Sets HTTP status to 204 if there is no valid content
+ */
+router.post('/getUserTickers/:emailaddress', async (req: Request, res: Response) => {
+
+    let email: string = req.params.emailaddress;
+
+    try {
+        // Attempt to get the user information from the backend
+        let userData = await userDatabase.getUser(email);
+
+        // If userData is an empty object, the user does not exist. Return such
+        if (Object.keys(userData).length === 0 && userData.constructor === Object) {
+            res.send("[]").status(204).end();
+            return;
+        }
+
+        else {
+
+            // Otherwise, parse out the ticker array and just send that information to the user
+            // @ts-ignore
+            res.send(userData[0].ownedTickers).status(200).end();
+        }
+    }
+
+    catch(e) {
+    // UH OH
+        }
+    }
+);
+
 /**
  * Handle a POST request which returns all of the information for a user.
  * Sets HTTP status to 200 and sends valid data if a user has been found

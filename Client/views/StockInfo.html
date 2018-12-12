@@ -16,7 +16,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
     <!-- Site Properties -->
-    <title>Fixed Menu Example - Semantic</title>
+    <title>Tradeoff - Stocks</title>
 
     <!-- I can load the page without these. It removes browser errors too -- Conrad
     <link rel="stylesheet" type="text/css" href="../dist/components/reset.css">
@@ -100,44 +100,42 @@
 
         <table class="ui celled padded table">
             <thead>
-            <tr><th class="single line">Evidence Rating</th>
-                <th>Effect</th>
-                <th>Efficacy</th>
-                <th>Consensus</th>
-                <th>Comments</th>
+            <tr><th class="single line">Ticker</th>
+                <th>Shares Owned</th>
+                <th>Date Purchased</th>
+                <th>Current Value</th>
+                <th>Daily Change</th>
             </tr></thead>
             <tbody>
             <tr>
                 <td>
-                    <h2 class="ui center aligned header">A</h2>
+                    <h2 class="ui center aligned header">AMD</h2>
                 </td>
-                <td class="single line">
-                    Power Output
+                <td class="ui center aligned">
+                    5
                 </td>
                 <td>
-                    <div class="ui star rating disabled" data-rating="3" data-max-rating="3"><i class="icon active"></i><i class="icon active"></i><i class="icon active"></i></div>
+                    12/4/2018
                 </td>
-                <td class="right aligned">
-                    80% <br>
-                    <a href="#">18 studies</a>
+                <td class="center aligned">
+                    <a href="#">$109.08</a>
                 </td>
-                <td>Creatine supplementation is the reference compound for increasing muscular creatine levels; there is variability in this increase, however, with some nonresponders.</td>
+                <td> +2.1% </td>
             </tr>
             <tr>
                 <td>
-                    <h2 class="ui center aligned header">A</h2>
+                    <h2 class="ui center aligned header">MEET</h2>
                 </td>
-                <td class="single line">
-                    Weight
+                <td class="ui center aligned">
+                    12
                 </td>
                 <td>
-                    <div class="ui star rating disabled" data-rating="3" data-max-rating="3"><i class="icon active"></i><i class="icon active"></i><i class="icon active"></i></div>
+                    12/3/2018
                 </td>
-                <td class="right aligned">
-                    100% <br>
-                    <a href="#">65 studies</a>
+                <td class="center aligned">
+                    <a href="#">$52.23</a>
                 </td>
-                <td>Creatine is the reference compound for power improvement, with numbers from one meta-analysis to assess potency</td>
+                <td>+4.2%</td>
             </tr>
             </tbody>
             <tfoot>
@@ -213,6 +211,24 @@
             <br><br>
             <div class="ui raised segment">
                 <div id="tickerInformation"> <!-- Javascript injects information here --> </div>
+            </div>
+
+            <div class="ui raised segment">
+                <button class="ui button">
+                    Buy
+                </button>
+                <div class="ui input">
+                    <input type="text" placeholder="Shares...">
+                </div>
+            </div>
+
+            <div class="ui raised segment">
+                <button class="ui button">
+                    Sell
+                </button>
+                <div class="ui input">
+                    <input type="text" placeholder="Shares...">
+                </div>
             </div>
 
 
