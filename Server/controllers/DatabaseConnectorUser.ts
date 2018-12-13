@@ -13,7 +13,7 @@ export default class DatabaseConnectorUser extends DatabaseConnector {
         let passUserDataModel = this.connection.model('user', this.user);
         passUserDataModel.findOne({'email': req.body.Email}, 'passHash passSalt', function(err, result) {
             if(err) {
-                console.log('FREAKING SCATTER! THEY CAN\'T CATCH US ALL!');
+                console.log('[Error] Unable to access MongoDB Database');
                 return false;
             }
 
@@ -50,7 +50,7 @@ export default class DatabaseConnectorUser extends DatabaseConnector {
         userQuery.save(err => {
             if (err)
             {
-                console.log('FAAAAKK REGISTERING USER WONT SAVE!!!! SEND HELP!');
+                console.log('[Error] Unable to access MongoDB Database');
                 return false;
             }
         });
@@ -64,7 +64,7 @@ export default class DatabaseConnectorUser extends DatabaseConnector {
         let passUserDataHistoryModel = this.connection.model('passUserDataHistoryModel', this.user);
         return passUserDataHistoryModel.find({'email': email, 'Date': {$gte: lowerBoundDate, $lte: upperBoundDate}}, function(err, result) {
             if(err) {
-                console.log('FREAKING SCATTER! THEY CAN\'T CATCH US ALL!');
+                console.log('[Error] Unable to access MongoDB Database');
                 return { };
             }
 
@@ -86,7 +86,7 @@ export default class DatabaseConnectorUser extends DatabaseConnector {
         userQuery.save(err => {
             if (err)
             {
-                console.log('FAAAAKK REGISTERING USER WONT SAVE!!!! SEND HELP!');
+                console.log('[Error] Unable to access MongoDB Database');
                 return false;
             }
         });
@@ -114,11 +114,5 @@ export default class DatabaseConnectorUser extends DatabaseConnector {
         });
     }
 
-
-    public processBuyOrder(email: string, ticker: string, numShares: number) {
-
-
-
-    }
 
 }

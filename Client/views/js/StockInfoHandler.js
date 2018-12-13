@@ -1,12 +1,7 @@
-
-//TODO: Remove these values when the modal closes
-var currentSearchedStockMaxData;
-
 /**
- * Each time that the stock search dialog has a key input into it, check for a valid matching stock
+ * Each time that the stock search bar has the 'enter' key pressed, query the server and request data for the supplied
+ * ticker. If a ticker does not exist, alert the user with a window shake.
  */
-
-
 $(document).ready(function() {
     $("#stockSearch").change(function () {
 
@@ -153,8 +148,3 @@ function getCurrentStockData(ticker) {
         });
 }
 
-// Theoretically this should work with session data, so we don't need to give it more data than just the ticker
-function getUserStockOwned(ticker) {
-
-
-}

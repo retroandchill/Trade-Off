@@ -2,12 +2,10 @@ function displaySignup() {
     $("#register").modal('show');
 }
 
+// Send the login request to the server containing the form data
 function processLogin() {
     let postData = $("#loginForm").serializeArray();
 
-    //console.log(postData);
-    //console.log(postData[0].value);
-    //console.log(postData[1].value);
 
     let loginData = {'Email': postData[0].value, 'Password': postData[1].value};
 
@@ -22,6 +20,7 @@ function processLogin() {
     });
 }
 
+// Send the signup request to the server containing the form data.
 function processSignup() {
 
     // Conrad got pissed off and hardcoded the array positions
